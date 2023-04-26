@@ -1,19 +1,19 @@
-  async function findAllCategory() {
-    const response = await api.get("/category", { headers: { companylink: link } })
-    return response.data
-  }
+  // async function findAllCategory() {
+  //   const response = await api.get("/category", { headers: { companylink: link } })
+  //   return response.data
+  // }
 
-  async function findAllProductsOfCategories() {
-    const { data: { data } } = await api.get("/products", { headers: { companylink: link } })
-    return data
-  }
+  // async function findAllProductsOfCategories() {
+  //   const { data: { data } } = await api.get("/products", { headers: { companylink: link } })
+  //   return data
+  // }
 
-  async function findAllCategoryAdditional() {
-    const { data: { data } } = await api.get("/category/additional", { headers: { companylink: link } })
-    return data
-  }
+  // async function findAllCategoryAdditional() {
+  //   const { data: { data } } = await api.get("/category/additional", { headers: { companylink: link } })
+  //   return data
+  // }
 
-  async function findAllAdditional() {
-    const { data: { data } } = await api.get("/additional", { headers: { companylink: link } })
-    return data
-  }
+  // async function findAllAdditional() {
+  //   const { data: { data } } = await api.get("/additional", { headers: { companylink: link } })
+  //   return data
+  // }

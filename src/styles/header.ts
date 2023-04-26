@@ -2,9 +2,9 @@ import { styled } from "@stitches/react";
 
 export const Header = styled("header", {
   width: "100%",
-  height: "250px",
+  height: "180px",
   position: "relative",
-  maxWidth: 500,
+  maxWidth: 450,
   margin: "0 auto",
 });
 
@@ -15,20 +15,32 @@ export const ImageBanner = styled("img", {
 });
 
 export const CompanyLogo = styled("img", {
-  width: "125px",
-  height: "125px",
+  width: "100px",
+  height: "100px",
   borderRadius: "50%",
+  display: "flex",
 });
 
 export const InfoCompany = styled("div", {
   position: "absolute",
   top: 0,
   width: "100%",
-  height: "100%",
   display: "flex",
-  alignItems: "center",
+  alignItems: " center",
   justifyContent: "center",
+  bottom: "20px",
   gap: 20,
+});
+export const TextContainer = styled("div", {
+  display: "flex",
+  flexDirection: "column",
+  alignContent: "center",
+  justifyContent: "center",
+  alignItems: "flex-start",
+  maxWidth: "280px",
+  position: "relative",
+  fontFamily: "system-ui",
+
 });
 
 export const ButtonMoreCompany = styled("button", {
@@ -60,9 +72,10 @@ export const Text = styled("h1", {
   fontSize: 12,
   fontWeight: "normal",
   "&.name-company": {
+    fontFamily: "cursive",
     color: "White",
     fontSize: 25,
-    fontWeight: "bold",
+    fontWeight: "lighter"
   },
   "&.company-address": {
     color: "White",
@@ -80,3 +93,13 @@ export const ButtonWhatsApp = styled("button", {
 });
 
 export const Container = styled("div", {});
+
+export const FooterCompany = styled("div", {
+  position: "absolute",
+  display: "flex",
+  alignItems: " center",
+  bottom: 0,
+  height: 30,
+  width: "100%",
+  maxWidth: "450px"
+});
