@@ -2,3 +2,20 @@
   margin: 0px;
   padding: 0px;
 }
+body{
+  background: WhiteSmoke;
+}
+
+body::-webkit-scrollbar {
+  width: 3px;
+  height: 3px;
+  background: rgba(0, 0, 0, 0.446);
+};
+
+::-webkit-scrollbar-track {
+  background: black;
+  padding: 2px;
+};
+::-webkit-scrollbar-thumb {
+  background-color: #000;
+};
